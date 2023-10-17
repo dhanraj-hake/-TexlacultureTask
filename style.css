@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    /* background-color: pink; */
+    display: flex;
+}
+
+.left{
+    width: 25%;
+    border: 1px solid black;
+}
+
+
+.left .title{
+    margin: 3rem 0 5rem;
+    /* padding: 1rem; */
+    text-align: center;
+    color: blue;
+
+}
+
+.left .title .sq{
+    border: 2px solid blue;
+    padding: 0.4rem;
+
+}
+
+
+.left .general{
+    margin: 1.5rem;
+    color: rgba(99, 115, 129, 1);
+
+}
+
+.left .general .heading{
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.left .general ul{
+    list-style: none;
+}
+
+.left .general ul li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background: rgba(51, 102, 255, 0.08);
+    padding: 1.5rem;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+.general-list-name{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.left .general .general-list-name p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.left .general .select{
+    color: rgba(25, 57, 183, 1);
+
+}
+
+
+
+
+
+
+
+
+
+.right{
+    width: 75%;
+}
+
+.right .nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.right .nav .search{
+    width: 40px;
+    height: 40px;
+    border: 1px dashed rgba(99, 115, 129, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(99, 115, 129, 1);
+}
+
+
+.right .nav .right{
+    color: rgba(99, 115, 129, 1);
+    justify-content: flex-end;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.right .nav .right .flag{
+    width: 40px;
+    height: 30px;
+}
+
+.right .nav .right .nav-profile-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.right .headings{
+    margin: 2rem 1rem;
+}
+
+.right .headings p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: .6rem 0;
+}
+
+.right .headings .links a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(99, 115, 129, 1);
+    margin-bottom: 2rem;
+    font-size: 18px;
+    padding: 0 0 .6rem 0;
+    margin-right: 1rem;
+}
+
+.right .headings .links a.select{
+    color: black;
+    border-bottom: 3px solid green;
+}
+
+
+.right .section1{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right .section1 .pref{
+    width: 45%;
+}
+
+.right .section1 .company-status{
+    width: 26%;
+}
+
+.right .section1 .active-user{
+    width: 26%;
+}
+
+.right .section1 .box{
+    padding: 0 1rem;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.401);
+    height: 115px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right .section1 .box p{
+    padding: 5px;
+}
+
+.right .section1 .inner-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.right .section1 .box-content{
+    display: flex;
+}
+
+.right .section1 .bar{
+    height: 90%;
+    width: 3px;
+    background: rgba(9, 26, 122, 1);
+    border-radius: 5px;
+}
+
+
+.right .section1 .content{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+
+.right .section1 .content .name{
+    color: rgba(99, 115, 129, 1);
+}
+
+.right .section1 .content .value{
+    color: rgba(9, 26, 122, 1);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.right .section1 .active-user .inner-box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* gap: 15px; */
+}
+
+.right .section1 .active-user .inner-box .names{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right .section1 .active-user .inner-box .names .app,
+.right .section1 .active-user .inner-box .names .web{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.right .section1 .active-user .inner-box .names .circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.right .section1 .active-user .inner-box .names .name{
+    font-size: 15px;
+}
+
+.right .section1 .active-user .inner-box .bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+.right .section1 .active-user .inner-box .bars .activebarapp{
+    width: 70%;
+    background-color: blue;
+    height: 18px;
+    border-radius: 10px;
+}
+.right .section1 .active-user .inner-box .bars .activebarweb{
+    width: 18%;
+    background-color: green;
+    height: 18px;
+    border-radius: 10px;
+}
+
+
+.bar.bg-skyblue{
+    background-color: rgba(0, 108, 156, 1);
+}
+
+.bg-green{
+    background-color:rgba(0, 97, 36, 1)
+}
+
+.skyblue{
+    color: rgba(0, 108, 156, 1);
+}
+
+.green{
+    color:rgba(0, 97, 36, 1)
+}
+
+.right .section2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.right .section2{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.right .section2 .onboarded{
+    width: 70%;
+}
+
+.right .section2 .metrics{
+    width: 30%;
+}
+
+select{
+    width: 15%;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    padding: 5px;
+    border-radius: 6px;
+    outline: none;
+}
+
+input{
+    width: 75%;
+    height: 40px;
+    padding: 5px;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, .5);
+}
+
+.filter{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    margin: 1rem 0;
+}
+
+.table-comp-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(51, 102, 255, 0.08);
+    height: 50px;
+}
+
+.table-comp-name .logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+tr{
+    padding: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+}
+td, th{
+    text-align: center;
+}
+
+table th{
+    width: 150px;
+    background-color: rgba(249, 250, 251, 1);
+    color: rgba(99, 115, 129, 1);
+}
+
+button{
+    width: 80px;
+    height: 20px;
+    background-color: rgba(0, 171, 85, 0.16);
+    border-radius: 8px;
+    color: rgba(0, 97, 36, 1);
+    border: none;
+}
+
+.draft{
+    background-color: rgba(145, 158, 171, 0.16);
+    color: black;
+}
+
